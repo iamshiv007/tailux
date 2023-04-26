@@ -2,42 +2,6 @@
   padding:0 30px
 }
 
-.dealBox {
-  width: 365px;
-  height: 246px;
-  position: relative;
-}
-
-.dealBox > div {
-  position: absolute;
-  bottom: 81px;
-  right: -50px;
-  color: white;
-  rotate: calc(-90deg);
-}
-
-.dealBox > div > P {
-  font-family: "Plus Jakarta Sans";
-  font-weight: 400;
-  font-size: 18px;
-  letter-spacing: 0.03em;
-}
-
-.dealBox > div > p:first-child {
-  font-weight: 800;
-  font-size: 30px;
-}
-
-.dealBox > div > p:last-child {
-  border-radius: 0 0 11px 11px;
-}
-
-.dealBox > div > p {
-  background-color: black;
-  padding: 0 33.5px;
-  border-top: 1px solid black;
-}
-
 .womenBox {
   width: 323px;
 }

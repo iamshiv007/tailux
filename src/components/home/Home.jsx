@@ -4,10 +4,10 @@ import CarouselImage1 from "../../assests/images/CarouselImage1.png";
 import CarouselImage2 from "../../assests/images/CarouselImage2.png";
 import CarouselImage3 from "../../assests/images/CarouselImage3.png";
 
-import DealImage1 from "../../assests/images/DealImage1.png";
-import DealImage2 from "../../assests/images/DealImage2.png";
-import DealImage3 from "../../assests/images/DealImage3.png";
-import DealImage4 from "../../assests/images/DealImage4.png";
+import fotor1 from "../../assests/images/fotor1.png";
+import fotor2 from "../../assests/images/fotor2.png";
+import fotor3 from "../../assests/images/fotor3.png";
+import fotor4 from "../../assests/images/fotor4.png";
 
 import Rectangle14 from "../../assests/images/Rectangle 14.png";
 import Rectangle15 from "../../assests/images/Rectangle 15.png";
@@ -36,46 +36,10 @@ import './Home.css'
 const Home = () => {
 
   const deals = [
-    <div className="dealBox">
-      <img src={DealImage1} alt="DealImage1" />
-      <div>
-        <p>30% OFF</p>
-        <p>MENS FORMAL</p>
-        <p>COLLECTION</p>
-      </div>
-    </div>,
-    <div className="dealBox">
-      <img src={DealImage2} alt="DealImage2" />
-      <div>
-        <p>30% OFF</p>
-        <p>MENS FORMAL</p>
-        <p>COLLECTION</p>
-      </div>
-    </div>,
-    <div className="dealBox">
-      <img src={DealImage3} alt="DealImage3" />
-      <div>
-        <p>30% OFF</p>
-        <p>MENS FORMAL</p>
-        <p>COLLECTION</p>
-      </div>
-    </div>,
-    <div className="dealBox">
-      <img src={DealImage4} alt="DealImage4" />
-      <div>
-        <p>30% OFF</p>
-        <p>MENS FORMAL</p>
-        <p>COLLECTION</p>
-      </div>
-    </div>,
-    <div className="dealBox">
-      <img src={DealImage1} alt="DealImage1" />
-      <div>
-        <p>30% OFF</p>
-        <p>MENS FORMAL</p>
-        <p>COLLECTION</p>
-      </div>
-    </div>,
+    <img src={fotor1} alt="fotor1" />,
+    <img src={fotor2} alt="fotor2" />,
+    <img src={fotor3} alt="fotor3" />,
+    <img src={fotor4} alt="fotor4" />,
   ];
 
   const womens = [

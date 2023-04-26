@@ -12,9 +12,8 @@ const LogInSignUp1 = () => {
     <Fragment>
       <Navbar />
 
-      <div className="logInSignUpContainer">
-        <div>
-          <p>
+        <div className="box1 logInSignUpContainer">
+          <p className="heading2">
             Login <span> or</span> Signup
           </p>
 
@@ -33,28 +32,27 @@ const LogInSignUp1 = () => {
             <Link className="text2" to={"/logInSignUp1"}>Privacy Policy</Link>
           </p>
 
-          <button>CONTINUE</button>
+          <button className="btn1">CONTINUE</button>
 
           <p className="text1">
             Or <span className="text2"> Continue With:</span>
           </p>
 
-          <div>
-          <button>
+          <div className="allCenter pt-1 pb-1">
+          <button className="btn2">
             <img src={FacebookIcon2} alt="" />
           </button>
-          <button>
+          <button className="btn2">
             <img src={GoogleIcon} alt="" />
           </button>
           </div>
 
-          <Link to={'/logInSignUp1'}>SIGNIN WITH PASSWORD</Link>
+          <Link className="text3" to={'/logInSignUp1'}>SIGNIN WITH PASSWORD</Link>
 
           <p className="text1">
             Have trouble logging in? <Link className="text2" to={'/logInSignUp'}> Get help</Link>
           </p>
         </div>
-      </div>
     </Fragment>
   );
 };
