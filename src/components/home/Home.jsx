@@ -36,10 +36,21 @@ import './Home.css'
 const Home = () => {
 
   const deals = [
-    <img src={fotor1} alt="fotor1" />,
-    <img src={fotor2} alt="fotor2" />,
-    <img src={fotor3} alt="fotor3" />,
-    <img src={fotor4} alt="fotor4" />,
+    <div className="dealBox">
+    <img src={fotor1} alt="fotor1" />
+    </div>,
+    <div className="dealBox">
+    <img src={fotor2} alt="fotor2" />
+    </div>,
+    <div className="dealBox">
+    <img src={fotor3} alt="fotor3" />
+    </div>,
+    <div className="dealBox">
+    <img src={fotor4} alt="fotor4" />
+    </div>,
+     <div className="dealBox">
+     <img src={fotor1} alt="fotor1" />
+     </div>,
   ];
 
   const womens = [
@@ -93,6 +104,16 @@ const Home = () => {
         </p>
       </div>
     </div>,
+    <div className="womenBox">
+      <img src={Women2} alt="Women2" />
+      <div>
+        <p>Plunge Floral Print</p>
+        <p>Georgette Dress</p>
+        <p>
+          <span>₹1999</span> <span>₹1999</span>
+        </p>
+      </div>
+    </div>,
   ];
 
   const fabrics = [
@@ -105,7 +126,7 @@ const Home = () => {
       <p>CHINNAMON CHIFFON</p>
     </div>,
     <div className="fabricBox">
-      <img src={Fabric3} alt="3" />
+      <img src={Fabric1} alt="Fabric3" />
       <p>CORDURY</p>
     </div>,
   ];
