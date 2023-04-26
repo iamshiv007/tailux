@@ -4,7 +4,7 @@ footer{
 footer > div {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1.3fr;
-  padding: 40px;
+  padding: 20px 40px;
 }
 
 footer > div > div > p:first-child {
@@ -13,25 +13,25 @@ footer > div > div > p:first-child {
 
 footer > div > div > p {
   font-family: "Plus Jakarta Sans";
-  font-size: 22px;
+  font-size: 16px;
   font-weight: 500;
-  line-height: 30px;
-  padding: 10px 0;
+  line-height: 22px;
+  padding: 6px 0;
 }
 
 footer > p {
   font-family: "Plus Jakarta Sans";
   font-weight: 800;
-  font-size: 28px;
-  line-height: 44px;
+  font-size: 20px;
+  line-height: 26px;
   background-color: black;
   color: #ffffff;
-  padding:15px;
+  padding:10px;
   text-align: center;
 }
 
 .socialMedia{
-    margin-top: 60px;
+    margin-top: 30px;
     padding:0 10px;
 }
 
@@ -41,12 +41,12 @@ footer > p {
 }
 
 .socialMedia > div:first-child > a > img{
-    width:22px;
+    width:16px;
     background-color: #E7E7E7;
 }
 
 .facebookIcon{
-    width:16px !important;
+    width:12px !important;
 }
 
 .socialMedia > div:first-child > a {
@@ -55,16 +55,16 @@ footer > p {
     justify-content: center;
     background: #E7E7E7;
     border-radius: 50%;
-    width:55px;
-    height:55px
+    width:45px;
+    height:45px
 }
 
 .socialMedia > div:last-child{
     display: flex;
-    justify-content: space-between;
-    margin-top: 40px;
+    margin-top: 30px;
+    column-gap: 20px;
 }
 
 .socialMedia > div:last-child > a > img{
-    height:55px
+    height:45px
 }
