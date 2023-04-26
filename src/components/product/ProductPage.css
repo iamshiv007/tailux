@@ -1,0 +1,184 @@
+.productContainer {
+  padding: 30px;
+}
+
+.productContainer > div:first-child {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  border-bottom: 3px solid #c5c5c5;
+}
+
+.productContainer > div:nth-child(2) {
+  display: grid;
+  grid-template-columns: 7fr 3fr;
+  border-bottom: 3px solid #c5c5c5;
+  padding: 45px 0;
+  column-gap: 20px;
+}
+
+.productContainer > div:nth-child(3) {
+  padding: 45px 0;
+}
+
+.productContainer > div:nth-child(3) > div {
+  display: flex;
+  justify-content: space-between;
+  padding:10px 0;
+}
+
+.productContainer > div:nth-child(3) > div > p {
+  font-family: "Plus Jakarta Sans";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 159.5%;
+  background: #EAEAEA;
+  width:24%;
+  text-align: center;
+  padding:6px;
+}
+
+.productContainer > div:nth-child(2) > div > div > p:first-child,
+.productContainer > div:nth-child(3) > p:first-child {
+  font-family: "Plus Jakarta Sans";
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 48px;
+}
+
+.productContainer > div:nth-child(2) > div > div > p {
+  font-family: "Plus Jakarta Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 20px !important;
+}
+
+.rightSide > .productName {
+  font-family: "Plus Jakarta Sans";
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 60px;
+}
+
+.rightSide > .productPrice {
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+  padding: 15px 0;
+  border-bottom: 3px solid #c5c5c5;
+}
+
+.rightSide > .productPrice > span:first-child {
+  font-family: "Plus Jakarta Sans";
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 159%;
+  text-decoration-line: line-through;
+  color: #ababab;
+}
+
+.rightSide > .productPrice > span:nth-child(2) {
+  font-family: "Plus Jakarta Sans";
+  font-weight: 600;
+  font-size: 49px;
+  line-height: 159%;
+}
+
+.rightSide > .productDescription {
+  padding: 20px 0;
+  font-family: "Plus Jakarta Sans";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.rightSide > .productSize > p,
+.rightSide > .productColor > p {
+  font-family: "Plus Jakarta Sans";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 159%;
+}
+
+.rightSide > .productSize > a,
+.rightSide > .productColor > a {
+  font-size: 10px;
+  color: #ababab;
+  text-decoration: none;
+  font-family: "Plus Jakarta Sans";
+  font-weight: 600;
+  line-height: 159%;
+}
+
+.rightSide > .productSize > div {
+  display: flex;
+  column-gap: 35px;
+  padding: 10px 0 5px 0;
+}
+
+.rightSide > .productSize > div > button {
+  border-radius: 100%;
+  width: 44px;
+  height: 44px;
+  border: 1.5px solid #000000;
+  font-family: "Plus Jakarta Sans";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.rightSide > .productColor {
+  padding: 20px 0;
+}
+
+.rightSide > .productColor > p {
+  padding-bottom: 10px;
+}
+
+.rightSide > .productColor > div > button {
+  width: 44px;
+  height: 44px;
+  border: 1.5px solid black;
+  margin-right: 35px;
+  border-radius: 1000%;
+}
+
+.rightSide > .productColor > div > button:first-child {
+  background: #0c302c;
+}
+.rightSide > .productColor > div > button:nth-child(2) {
+  background: #172323;
+}
+.rightSide > .productColor > div > button:nth-child(3) {
+  background: #ae1e1e;
+}
+.rightSide > .productColor > div > button:nth-child(4) {
+  background: #bc473e;
+}
+.rightSide > .productColor > div > button:nth-child(5) {
+  background: #f9f6f4;
+}
+.rightSide > .productColor > div > button:last-child {
+  background: #212549;
+}
+
+.rightSide > .addToCartBtn,
+.rightSide > .buyNowBtn {
+  display: block;
+  background: #000000;
+  border-radius: 5px;
+  font-family: "Plus Jakarta Sans";
+  font-weight: 600;
+  font-size: 31px;
+  line-height: 159.5%;
+  color: #ffffff;
+  padding: 8px 70px;
+  margin: 40px 0;
+}
+
+.rightSide > .buyNowBtn {
+  background-color: white;
+  padding: 8px 96px;
+  color: black;
+  border-radius: 0;
+}

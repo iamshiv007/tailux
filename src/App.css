@@ -1,0 +1,21 @@
+.heading1 {
+  font-size: 30px;
+  font-weight: 800;
+  font-family: "Plus Jakarta Sans";
+  letter-spacing: 0.225em;
+  padding: 20px 0 20px 50px;
+}
+
+.text1 {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  color: #787878;
+  padding: 10px 0;
+}
+
+.text2 {
+  color: #000000;
+  font-weight: 700;
+  text-decoration: none;
+}
