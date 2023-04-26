@@ -17,62 +17,61 @@
 }
 
 .productContainer > div:nth-child(3) {
-  padding: 45px 0;
+  padding: 25px 0;
 }
 
 .productContainer > div:nth-child(3) > div {
   display: flex;
   justify-content: space-between;
-  padding:10px 0;
+  padding: 10px 0;
 }
 
 .productContainer > div:nth-child(3) > div > p {
   font-family: "Plus Jakarta Sans";
   font-weight: 600;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 159.5%;
-  background: #EAEAEA;
-  width:24%;
+  background: #eaeaea;
+  width: 20%;
   text-align: center;
-  padding:6px;
+  padding: 6px;
 }
 
 .productContainer > div:nth-child(2) > div > div > p:first-child,
 .productContainer > div:nth-child(3) > p:first-child {
   font-family: "Plus Jakarta Sans";
   font-weight: 400;
-  font-size: 34px;
-  line-height: 48px;
+  font-size: 20px;
+  line-height: 35px;
 }
 
 .productContainer > div:nth-child(2) > div > div > p {
   font-family: "Plus Jakarta Sans";
   font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 14px;
+  line-height: 20px;
   margin-bottom: 20px !important;
 }
 
 .rightSide > .productName {
   font-family: "Plus Jakarta Sans";
   font-weight: 400;
-  font-size: 45px;
-  line-height: 60px;
+  font-size: 25px;
+  line-height: 35px;
 }
 
 .rightSide > .productPrice {
   display: flex;
   align-items: center;
   column-gap: 15px;
-  padding: 15px 0;
+  padding: 10px 0;
   border-bottom: 3px solid #c5c5c5;
 }
 
 .rightSide > .productPrice > span:first-child {
   font-family: "Plus Jakarta Sans";
   font-weight: 600;
-  font-size: 28px;
-  line-height: 159%;
+  font-size: 20px;
   text-decoration-line: line-through;
   color: #ababab;
 }
@@ -80,15 +79,22 @@
 .rightSide > .productPrice > span:nth-child(2) {
   font-family: "Plus Jakarta Sans";
   font-weight: 600;
-  font-size: 49px;
-  line-height: 159%;
+  font-size: 25px;
+}
+
+.rightSide > .productPrice > button {
+  border: none;
+}
+
+.rightSide > .productPrice > button > img {
+  width: 20px;
 }
 
 .rightSide > .productDescription {
-  padding: 20px 0;
+  padding: 10px 0;
   font-family: "Plus Jakarta Sans";
   font-weight: 400;
-  font-size: 18px;
+  font-size: 15px;
   line-height: 24px;
 }
 
@@ -128,7 +134,7 @@
 }
 
 .rightSide > .productColor {
-  padding: 20px 0;
+  padding: 10px 0;
 }
 
 .rightSide > .productColor > p {
@@ -169,16 +175,16 @@
   border-radius: 5px;
   font-family: "Plus Jakarta Sans";
   font-weight: 600;
-  font-size: 31px;
-  line-height: 159.5%;
+  font-size: 16px;
   color: #ffffff;
-  padding: 8px 70px;
-  margin: 40px 0;
+  padding: 8px 0;
+  margin: 10px 0;
+  width:50%;
 }
 
 .rightSide > .buyNowBtn {
   background-color: white;
-  padding: 8px 96px;
+  padding: 8px 0;
   color: black;
   border-radius: 0;
 }

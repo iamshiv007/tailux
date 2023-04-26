@@ -73,8 +73,10 @@ const ProductPage = () => {
 
       <div className="productContainer">
         <div>
+
+            {/* Product Carousel */}
           <div>
-            <div style={{ width: "50%", margin: "auto" }}>
+            <div style={{ width: "30%", margin: "auto" }}>
               <Carousel
                 showArrows={true}
                 showStatus={false}
@@ -93,6 +95,7 @@ const ProductPage = () => {
               </Carousel>
             </div>
           </div>
+
           <div className="rightSide">
             <p className="productName">
               Plunge Floral Print
@@ -103,9 +106,9 @@ const ProductPage = () => {
             <p className="productPrice">
               <span>₹1999</span>
               <span>₹1999</span>
-              <span>
+              <button>
                 <img src={WishlistIcon2} alt="" />
-              </span>
+              </button>
             </p>
 
             <p className="productDescription">
@@ -147,6 +150,7 @@ const ProductPage = () => {
             <button className="addToCartBtn">ADD TO CART</button>
             <button className="buyNowBtn">BUY NOW</button>
           </div>
+
         </div>
 
         <div>
@@ -186,8 +190,8 @@ const ProductPage = () => {
 
           <div
             style={{
-              width: "350px",
-              height: "400px",
+              width: "250px",
+              height: "300px",
               background: "#D9D9D9",
               borderRadius: "10px",
             }}
