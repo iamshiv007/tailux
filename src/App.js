@@ -7,6 +7,8 @@ import LogInSignUp1 from './components/user/LogInSignUp1';
 import OtpPage from './components/user/OtpPage';
 import CreateAccount from './components/user/CreateAccount';
 import Login from './components/user/Login';
+import ResetPassword from './components/user/ResetPassword';
+import ResetPasswordOtp from './components/user/ResetPasswordOtp';
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
       <Route path='/otpPage' element={<OtpPage/>} />
       <Route path='/createAccount' element={<CreateAccount/>} />
       <Route path='/login' element={<Login/>} />
+      <Route path='/resetPassword' element={<ResetPassword/>} />
+      <Route path='/resetPasswordOtp' element={<ResetPasswordOtp/>} />
     </Routes>
     </BrowserRouter>
   );
