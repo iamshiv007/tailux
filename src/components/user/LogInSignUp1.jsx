@@ -12,24 +12,30 @@ const LogInSignUp1 = () => {
     <Fragment>
       <Navbar />
 
+      <div className="screenH">
         <div className="box1 logInSignUpContainer">
           <p className="heading2">
             Login <span> or</span> Signup
           </p>
 
           <input
-            type="number"
+          className="input1"
+            type="text"
             min={10}
             name=""
             id=""
             placeholder="+91   |   Mobile Number"
-            value={"+91   |"}
           />
 
           <p className="text1">
             By continuing, I agree to the{" "}
-            <Link className="text2" to="/logInSignUp1">Terms of Use</Link> &{" "}
-            <Link className="text2" to={"/logInSignUp1"}>Privacy Policy</Link>
+            <Link className="text2" to="/logInSignUp1">
+              Terms of Use
+            </Link>{" "}
+            &{" "}
+            <Link className="text2" to={"/logInSignUp1"}>
+              Privacy Policy
+            </Link>
           </p>
 
           <button className="btn1">CONTINUE</button>
@@ -39,20 +45,27 @@ const LogInSignUp1 = () => {
           </p>
 
           <div className="allCenter pt-1 pb-1">
-          <button className="btn2">
-            <img src={FacebookIcon2} alt="" />
-          </button>
-          <button className="btn2">
-            <img src={GoogleIcon} alt="" />
-          </button>
+            <button className="btn2">
+              <img className="facebookIcon2" src={FacebookIcon2} alt="" />
+            </button>
+            <button className="btn2">
+              <img className="googleIcon" src={GoogleIcon} alt="" />
+            </button>
           </div>
 
-          <Link className="text3" to={'/logInSignUp1'}>SIGNIN WITH PASSWORD</Link>
+          <Link className="text3" to={"/logInSignUp1"}>
+            SIGNIN WITH PASSWORD
+          </Link>
 
           <p className="text1">
-            Have trouble logging in? <Link className="text2" to={'/logInSignUp'}> Get help</Link>
+            Have trouble logging in?{" "}
+            <Link className="text2" to={"/logInSignUp"}>
+              {" "}
+              Get help
+            </Link>
           </p>
         </div>
+      </div>
     </Fragment>
   );
 };

@@ -6,6 +6,7 @@ import './App.css';
 import LogInSignUp1 from './components/user/LogInSignUp1';
 import OtpPage from './components/user/OtpPage';
 import CreateAccount from './components/user/CreateAccount';
+import Login from './components/user/Login';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Route path='/logInSignUp1' element={<LogInSignUp1/>} />
       <Route path='/otpPage' element={<OtpPage/>} />
       <Route path='/createAccount' element={<CreateAccount/>} />
+      <Route path='/login' element={<Login/>} />
     </Routes>
     </BrowserRouter>
   );

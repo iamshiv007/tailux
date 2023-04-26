@@ -13,50 +13,59 @@ const OtpPage = () => {
   return (
     <Fragment>
       <Navbar />
+      <div className="screenH">
+        <div className="box1 otpPageContainer">
+          <p className="heading2">Welcome Back</p>
 
-      <div className="box1 otpPageContainer">
-        <p className="heading2">Welcome Back</p>
+          <p className="text1">
+            +91 9887765432 Not your Number?{" "}
+            <Link to="/" className="text2">
+              Edit Now
+            </Link>
+          </p>
 
-        <p className="text1">
-          +91 9887765432 Not your Number?{" "}
-          <Link to="/" className="text2">
-            Edit Now
+          <OTPInput
+            value={otp}
+            onChange={setOtp}
+            numInputs={6}
+            renderInput={(props) => <input {...props} />}
+            inputStyle="otpBoxes"
+          />
+
+          <p className="text1">
+            OTP Not Received?{" "}
+            <Link className="text2" to="/">
+              Send Again
+            </Link>
+          </p>
+
+          <button className="btn1">SUBMIT</button>
+
+          <p className="text1">
+            Or <span className="text2"> Continue With:</span>
+          </p>
+
+          <div className="allCenter pt-1 pb-1">
+            <button className="btn2">
+              <img className="facebookIcon2" src={FacebookIcon2} alt="" />
+            </button>
+            <button className="btn2">
+              <img className="googleIcon" src={GoogleIcon} alt="" />
+            </button>
+          </div>
+
+          <Link className="text3" to="/">
+            SIGNIN WITH PASSWORD
           </Link>
-        </p>
 
-        <OTPInput
-          value={otp}
-          onChange={setOtp}
-          numInputs={6}
-          renderInput={(props) => <input {...props} />}
-          inputStyle="otpBoxes"
-        />
-
-        <p className="text1">
-          OTP Not Received?{" "}
-          <Link className="text2" to="/">
-            Send Again
-          </Link>
-        </p>
-
-        <button className="btn1">SUBMIT</button>
-
-        <p className="text1">
-          Or <span className="text2"> Continue With:</span>
-        </p>
-
-        <div className="allCenter pt-1 pb-1">
-          <button className="btn2">
-            <img src={FacebookIcon2} alt="" />
-          </button>
-          <button className="btn2">
-            <img src={GoogleIcon} alt="" />
-          </button>
+          <p className="text1">
+            Have trouble logging in?{" "}
+            <Link className="text2" to="/">
+              {" "}
+              Get help
+            </Link>
+          </p>
         </div>
-
-        <Link className="text3" to='/'>SIGNIN WITH PASSWORD</Link>
-
-        <p className="text1">Have trouble logging in?  <Link className="text2" to='/'> Get help</Link></p>
       </div>
     </Fragment>
   );
