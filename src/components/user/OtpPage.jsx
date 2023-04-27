@@ -19,7 +19,7 @@ const OtpPage = () => {
 
           <p className="text1">
             +91 9887765432 Not your Number?{" "}
-            <Link to="/" className="text2">
+            <Link to="/logInSignUp1" className="text2">
               Edit Now
             </Link>
           </p>
@@ -54,7 +54,7 @@ const OtpPage = () => {
             </button>
           </div>
 
-          <Link className="text3" to="/">
+          <Link className="text3" to="/login">
             SIGNIN WITH PASSWORD
           </Link>
 

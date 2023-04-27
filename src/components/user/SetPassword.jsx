@@ -20,7 +20,7 @@ const SetPassword = () => {
             <span>manju@gmail.com </span>
             <span className="text1">
               Not manju?{" "}
-              <Link to="/" className="text2">
+              <Link to="/resetPassword" className="text2">
                 Change Now
               </Link>
             </span>

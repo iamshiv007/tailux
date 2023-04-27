@@ -16,7 +16,7 @@ const ResetPasswordOtp = () => {
 
           <p className="text1">
             manju@gmail.com Not your Mail?{" "}
-            <Link to="/" className="text2">
+            <Link to="/resetPassword" className="text2">
               Edit Now
             </Link>
           </p>

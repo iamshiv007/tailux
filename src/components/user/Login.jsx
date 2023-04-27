@@ -31,7 +31,7 @@ const Login = () => {
 
           <p className="text1">
             Forgot Password?{" "}
-            <Link className="text2" to="/">
+            <Link className="text2" to="/resetPassword">
               Reset Now
             </Link>
           </p>

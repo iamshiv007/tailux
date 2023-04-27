@@ -53,7 +53,7 @@ const LogInSignUp1 = () => {
             </button>
           </div>
 
-          <Link className="text3" to={"/logInSignUp1"}>
+          <Link className="text3" to={"/login"}>
             SIGNIN WITH PASSWORD
           </Link>
 
