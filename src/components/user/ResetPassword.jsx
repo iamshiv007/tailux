@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 const ResetPassword = () => {
   return (
     <Fragment>
+       <div className="logInBackground">
       <Navbar />
 
       <div className="screenH">
@@ -33,6 +34,8 @@ const ResetPassword = () => {
             </Link>
           </p>
         </div>
+      </div>
+
       </div>
     </Fragment>
   );

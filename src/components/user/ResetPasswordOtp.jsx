@@ -9,7 +9,9 @@ const ResetPasswordOtp = () => {
 
   return (
     <Fragment>
+       <div className="logInBackground">
       <Navbar />
+
       <div className="screenH">
         <div className="box1 resetPasswordOtpContainer">
           <p className="heading2">Reset Password</p>
@@ -50,6 +52,8 @@ const ResetPasswordOtp = () => {
             </Link>
           </p>
         </div>
+      </div>
+
       </div>
     </Fragment>
   );

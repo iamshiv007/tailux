@@ -8,6 +8,7 @@ import { Link } from "react-router-dom";
 const Login = () => {
   return (
     <Fragment>
+      <div className="logInBackground">
       <Navbar />
 
       <div className="screenH">
@@ -64,6 +65,8 @@ const Login = () => {
             </Link>
           </p>
         </div>
+      </div>
+
       </div>
     </Fragment>
   );

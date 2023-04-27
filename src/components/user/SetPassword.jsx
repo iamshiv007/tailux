@@ -6,6 +6,7 @@ import "./SetPassword.css";
 const SetPassword = () => {
   return (
     <Fragment>
+       <div className="logInBackground">
       <Navbar />
 
       <div className="screenH">
@@ -56,6 +57,8 @@ const SetPassword = () => {
             </Link>
           </p>
         </div>
+      </div>
+
       </div>
     </Fragment>
   );

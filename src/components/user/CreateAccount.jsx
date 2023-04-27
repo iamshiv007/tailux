@@ -10,6 +10,7 @@ import "./CreateAccount.css";
 const CreateAccount = () => {
   return (
     <Fragment>
+       <div className="logInBackground">
         <Navbar />
 
       <div className="screenH">
@@ -68,6 +69,8 @@ const CreateAccount = () => {
             </Link>
           </p>
         </div>
+      </div>
+
       </div>
     </Fragment>
   );

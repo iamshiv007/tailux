@@ -12,7 +12,9 @@ const OtpPage = () => {
 
   return (
     <Fragment>
+       <div className="logInBackground">
       <Navbar />
+
       <div className="screenH">
         <div className="box1 otpPageContainer">
           <p className="heading2">Welcome Back</p>
@@ -66,6 +68,8 @@ const OtpPage = () => {
             </Link>
           </p>
         </div>
+      </div>
+
       </div>
     </Fragment>
   );

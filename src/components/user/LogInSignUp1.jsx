@@ -10,6 +10,7 @@ import { Link } from "react-router-dom";
 const LogInSignUp1 = () => {
   return (
     <Fragment>
+       <div className="logInBackground">
       <Navbar />
 
       <div className="screenH">
@@ -65,6 +66,8 @@ const LogInSignUp1 = () => {
             </Link>
           </p>
         </div>
+      </div>
+
       </div>
     </Fragment>
   );
