@@ -73,8 +73,7 @@ const ProductPage = () => {
 
       <div className="productContainer">
         <div>
-
-            {/* Product Carousel */}
+          {/* Product Carousel */}
           <div>
             <div style={{ width: "30%", margin: "auto" }}>
               <Carousel
@@ -150,7 +149,6 @@ const ProductPage = () => {
             <button className="addToCartBtn">ADD TO CART</button>
             <button className="buyNowBtn">BUY NOW</button>
           </div>
-
         </div>
 
         <div>
@@ -201,9 +199,9 @@ const ProductPage = () => {
         <div>
           <p>MORE PRODUCTS ON:-</p>
           <div>
-            <p>FROK</p>
-            <p>GREEN</p>
-            <p>TAILOR</p>
+            <Link to="/">FROK</Link>
+            <Link to="/">GREEN</Link>
+            <Link to="/">TAILOR</Link>
           </div>
         </div>
 
