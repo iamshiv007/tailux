@@ -12,9 +12,6 @@ import fotor4 from "../../assests/images/fotor4.png";
 import Rectangle14 from "../../assests/images/Rectangle 14.png";
 import Rectangle15 from "../../assests/images/Rectangle 15.png";
 import Rectangle16 from "../../assests/images/Rectangle 16.png";
-import Rectangle17 from "../../assests/images/Rectangle 17.png";
-import Rectangle18 from "../../assests/images/Rectangle 18.png";
-import Rectangle19 from "../../assests/images/Rectangle 19.png";
 
 import Women1 from "../../assests/images/Women1.png";
 import Women2 from "../../assests/images/Women2.png";
@@ -207,9 +204,6 @@ const Home = () => {
                   </div>
                 </div>
               </div>
-              {/* <img src={Rectangle18} alt="Rectangle18" />
-              <img src={Rectangle17} alt="Rectangle17" /> */}
-              {/* <img src={Rectangle19} alt="Rectangle19" /> */}
             </Masonry>
           </ResponsiveMasonry>
         </div>

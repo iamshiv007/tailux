@@ -1,0 +1,294 @@
+.productContainer {
+  padding: 40px;
+}
+
+.productContainer > div:first-child {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  border-bottom: 2px solid #c5c5c5;
+  padding-bottom: 30px;
+}
+
+.productContainer > div:nth-child(2) {
+  padding: 25px 0;
+}
+
+.productContainer > div:nth-child(2) > div {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  align-items: center;
+}
+
+.productContainer > div:nth-child(2) > div > a {
+  font-family: "Plus Jakarta Sans";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  background: #eaeaea;
+  width: 20%;
+  text-align: center;
+  padding: 6px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.rightSide > .productName {
+  font-family: "Plus Jakarta Sans";
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 35px;
+}
+
+.rightSide > .productPrice {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+  padding: 15px 0 0 0;
+}
+
+.rightSide > .productPrice + p {
+  border-bottom: 2px solid #c5c5c5;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  color: #008555;
+  padding: 0 0 15px 0;
+}
+
+.rightSide > .productPrice > span:first-child {
+  font-family: "Plus Jakarta Sans";
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.rightSide > .productPrice > span:nth-child(2),
+.rightSide > .productPrice > span:nth-child(2) > span {
+  font-family: "Plus Jakarta Sans";
+  font-weight: 600;
+  font-size: 14px;
+  color: #ababab;
+}
+
+.rightSide > .productPrice > span:nth-child(2) > span {
+  text-decoration: line-through;
+}
+
+.rightSide > .productPrice > div {
+  column-gap: 4px;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.rightSide > .productPrice > div > img {
+  width: 11px;
+}
+
+.rightSide > .productPrice > div > span {
+  font-size: 10px;
+}
+
+.rightSide > .productPrice > div > span:first-child {
+  font-weight: 600;
+  font-size: 11px;
+}
+
+.rightSide > .productPrice > div > span:last-child {
+  border-left: 1px solid black;
+  padding-left: 4px;
+}
+
+.rightSide > .productPrice > button {
+  border: none;
+}
+
+.rightSide > .productPrice > button > img {
+  width: 22px;
+}
+
+.rightSide > .productSize,
+.rightSide > .productColor {
+  padding-top: 15px;
+}
+
+.rightSide > .productSize > p > a {
+  font-size: 10px;
+  color: #ababab;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.rightSide > .productSize > div,
+.rightSide > .productColor > div {
+  display: flex;
+  column-gap: 15px;
+  padding: 8px 0 5px 0;
+}
+
+.rightSide > .productSize > div > button:first-child {
+  border: 1.5px solid #bebebe;
+  color: #bebebe;
+}
+
+.rightSide > .productSize > div > button,
+.rightSide > .productColor > div > button {
+  border-radius: 100%;
+  width: 35px;
+  height: 35px;
+  border: 1.5px solid #000000;
+  font-size: 14px;
+}
+
+.rightSide > .deliveryOption {
+  padding-top: 15px;
+}
+
+.rightSide > .deliveryOption > p > img {
+  width: 15px;
+}
+
+.rightSide > .deliveryOption > div > div {
+  display: inline-block;
+}
+
+.rightSide > .deliveryOption > div > div > input {
+  font-size: 11px;
+  color: #ababab;
+  border: 1px solid #7a7a7a;
+  border-radius: 4px;
+  padding: 5px 8px;
+  margin: 5px 0;
+}
+
+.rightSide > .deliveryOption > div > div > p {
+  font-size: 11px;
+  font-weight: 700;
+  transform: translateX(-45px);
+  display: inline-block;
+}
+
+.rightSide > .deliveryOption > div > div {
+  display: flex;
+  align-items: center;
+}
+
+.rightSide > .deliveryOption > div > div > span {
+  font-size: 11px;
+  line-height: 13px;
+}
+
+.rightSide > .productColor > div > button:first-child {
+  background: #0c302c;
+}
+.rightSide > .productColor > div > button:nth-child(2) {
+  background: #172323;
+}
+.rightSide > .productColor > div > button:nth-child(3) {
+  background: #ae1e1e;
+}
+.rightSide > .productColor > div > button:nth-child(4) {
+  background: #bc473e;
+}
+.rightSide > .productColor > div > button:nth-child(5) {
+  background: #f9f6f4;
+}
+.rightSide > .productColor > div > button:last-child {
+  background: #212549;
+}
+
+.rightSide > select {
+  display: block;
+  border: none;
+  font-weight: 800;
+  font-size: 13px;
+  background: #d9d9d9;
+  border-radius: 3px;
+  padding: 8px;
+  margin: 12px 0;
+}
+
+.rightSide > .costomizeBtn,
+.rightSide > .addToBagBtn {
+  background: #000000;
+  border-radius: 5px;
+  font-family: "Plus Jakarta Sans";
+  font-weight: 500;
+  font-size: 15px;
+  color: #ffffff;
+  padding: 5px 0;
+  margin: 5px 0;
+  width: 35%;
+  border: none;
+  padding: 10px;
+}
+
+.rightSide > .costomizeBtn {
+  background: #7c7c7c;
+  border-radius: 5px;
+  margin-right: 10%;
+}
+
+.productContainer .aboutProduct > div {
+  padding-right: 30px;
+  border-right: 2px solid #c5c5c5;
+}
+
+.productContainer .aboutProduct > div > div {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
+
+.productContainer .aboutProduct .specificationBox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rightSide > .ratingsAndReviews {
+  padding-left: 30px;
+}
+
+.rightSide > .ratingsAndReviews > p:nth-child(2) {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+}
+
+.rightSide > .ratingsAndReviews > p:nth-child(2) > img {
+  width: 35px;
+}
+
+.rightSide > .ratingsAndReviews > p:nth-child(2) > span {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 45px;
+}
+
+.rightSide > .ratingsAndReviews > p:nth-child(3) {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.rightSide > .ratingsAndReviews > div {
+  margin: 25px 0;
+}
+
+.rightSide > .ratingsAndReviews > div > div {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+}
+
+.rightSide > .ratingsAndReviews > div > div > img {
+  width: 11px;
+}
+
+.rightSide > .ratingsAndReviews > div > div > span:first-child {
+  width: 10px;
+}
+
+.rightSide > .ratingsAndReviews > div > div > div {
+  width: 80%;
+  height: 5px;
+  margin: 12px 0;
+}

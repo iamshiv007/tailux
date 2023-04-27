@@ -11,12 +11,8 @@ const Navbar = () => {
   return (
     <div>
       <nav>
-        <div>
-          <Link to="/">
-            <img className="navLogo" src={Logo} alt="Tailux" />
-          </Link>
-        </div>
-
+        <div className="d-flex">
+            <img className="navLogo me-5" src={Logo} alt="Tailux" />
         <div className="categoryLink">
           <div>
             <Link to="/">MEN</Link>
@@ -31,6 +27,8 @@ const Navbar = () => {
             <Link to="/">TailuX Studio</Link>
           </div>
         </div>
+        </div>
+
 
         <div className="searchBar">
           <img src={SearchIcon} alt="" />
