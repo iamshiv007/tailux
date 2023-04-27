@@ -31,35 +31,34 @@ import Navbar from "../layout/navbar/Navbar";
 import Footer from "../layout/footer/Footer";
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 
-import './Home.css'
+import "./Home.css";
 
 const Home = () => {
-
   const deals = [
     <div className="dealBox">
-    <img src={fotor1} alt="fotor1" />
+      <img src={fotor1} alt="fotor1" />
     </div>,
     <div className="dealBox">
-    <img src={fotor2} alt="fotor2" />
+      <img src={fotor2} alt="fotor2" />
     </div>,
     <div className="dealBox">
-    <img src={fotor3} alt="fotor3" />
+      <img src={fotor3} alt="fotor3" />
     </div>,
     <div className="dealBox">
-    <img src={fotor4} alt="fotor4" />
+      <img src={fotor4} alt="fotor4" />
     </div>,
-     <div className="dealBox">
-     <img src={fotor1} alt="fotor1" />
-     </div>,
+    <div className="dealBox">
+      <img src={fotor1} alt="fotor1" />
+    </div>,
   ];
 
   const womens = [
     <div className="womenBox">
       <img src={Women1} alt="Women1" />
       <div>
-        <p>Plunge Floral Print</p>
-        <p>Georgette Dress</p>
-        <p>
+        <p className="text4">Plunge Floral Print</p>
+        <p className="text4">Georgette Dress</p>
+        <p className="text4">
           <span>₹1999</span> <span>₹1999</span>
         </p>
       </div>
@@ -67,9 +66,9 @@ const Home = () => {
     <div className="womenBox">
       <img src={Women2} alt="Women2" />
       <div>
-        <p>Landscape Print</p>
-        <p>Belted Shirtdress</p>
-        <p>
+        <p className="text4">Landscape Print</p>
+        <p className="text4">Belted Shirtdress</p>
+        <p className="text4">
           <span>₹1999</span> <span>₹1999</span>
         </p>
       </div>
@@ -77,9 +76,9 @@ const Home = () => {
     <div className="womenBox">
       <img src={Women3} alt="Women3" />
       <div>
-        <p>Lattice Floral Print</p>
-        <p>Cotton Linen Dress</p>
-        <p>
+        <p className="text4">Lattice Floral Print</p>
+        <p className="text4">Cotton Linen Dress</p>
+        <p className="text4">
           <span>₹1999</span> <span>₹1999</span>
         </p>
       </div>
@@ -87,9 +86,9 @@ const Home = () => {
     <div className="womenBox">
       <img src={Women4} alt="Women4" />
       <div>
-        <p>Shadow Ombre Print</p>
-        <p>Georgette Skirt</p>
-        <p>
+        <p className="text4">Shadow Ombre Print</p>
+        <p className="text4">Georgette Skirt</p>
+        <p className="text4">
           <span>₹1999</span> <span>₹1999</span>
         </p>
       </div>
@@ -97,9 +96,9 @@ const Home = () => {
     <div className="womenBox">
       <img src={Women1} alt="Women1" />
       <div>
-        <p>Plunge Floral Print</p>
-        <p>Georgette Dress</p>
-        <p>
+        <p className="text4">Plunge Floral Print</p>
+        <p className="text4">Georgette Dress</p>
+        <p className="text4">
           <span>₹1999</span> <span>₹1999</span>
         </p>
       </div>
@@ -107,9 +106,9 @@ const Home = () => {
     <div className="womenBox">
       <img src={Women2} alt="Women2" />
       <div>
-        <p>Plunge Floral Print</p>
-        <p>Georgette Dress</p>
-        <p>
+        <p className="text4">Plunge Floral Print</p>
+        <p className="text4">Georgette Dress</p>
+        <p className="text4">
           <span>₹1999</span> <span>₹1999</span>
         </p>
       </div>
@@ -157,85 +156,115 @@ const Home = () => {
       </div>
 
       <div className="homeMiddleContainer">
-      {/* Deals of The day Slider */}
-      <div>
-        <p className="heading1">DEALS OF THE DAY</p>
-        <AliceCarousel
-          mouseTracking
-          items={deals}
-          slideBy="page"
-          autoWidth
-          disableButtonsControls
-          disableDotsControls
-        />
-      </div>
+        {/* Deals of The day Slider */}
+        <div>
+          <p className="heading1">DEALS OF THE DAY</p>
+          <AliceCarousel
+            mouseTracking
+            items={deals}
+            slideBy="page"
+            autoWidth
+            disableButtonsControls
+            disableDotsControls
+          />
+        </div>
 
-      {/* Masonry */}
-      <div className="seasonalWear">
-        <p className="heading1">SEASONAL DESIGNER WEAR</p>
-          <ResponsiveMasonry>
-            <Masonry columnsCount={3} gutter="10px">
-              <img src={Rectangle14} alt="Rectangle14" />
-              <img src={Rectangle15} alt="Rectangle15" />
-              <img src={Rectangle18} alt="Rectangle18" />
-              <img src={Rectangle17} alt="Rectangle17" />
-              <img src={Rectangle16} alt="Rectangle16" />
-              <img src={Rectangle19} alt="Rectangle19" />
+        {/* Masonry */}
+        <div className="seasonalWear px-4">
+          <p className="heading1">SEASONAL DESIGNER WEAR</p>
+          <ResponsiveMasonry
+            columnsCount={2}
+            columnsCountBreakPoints={{ 350: 3, 750: 2, 900: 2 }}
+          >
+            <Masonry gutter="40px">
+              <div className="seasonalBox">
+                <img src={Rectangle14} alt="Rectangle14" />
+                <div>
+                  <p>
+                    {" "}
+                    DESIGNER <br /> WEAR
+                  </p>
+                  <p>by G.Hasini</p>
+                </div>
+              </div>
+              <div>
+                <div className="seasonalBox mb-4" style={{ width: "540px" }}>
+                  <img src={Rectangle15} alt="Rectangle15" />
+                  <div>
+                    <p>
+                      PRINTED <br /> TREND
+                    </p>
+                    <p>by K.A.Paul</p>
+                  </div>
+                </div>
+                <div className="seasonalBox" style={{ width: "540px" }}>
+                  <img src={Rectangle16} alt="Rectangle16" />
+                  <div>
+                    <p>
+                      PANTS <br /> WITH <br /> PATTERNS
+                    </p>
+                    <p>by John</p>
+                  </div>
+                </div>
+              </div>
+              {/* <img src={Rectangle18} alt="Rectangle18" />
+              <img src={Rectangle17} alt="Rectangle17" /> */}
+              {/* <img src={Rectangle19} alt="Rectangle19" /> */}
             </Masonry>
           </ResponsiveMasonry>
-      </div>
-      
-      {/* Women Slider */}
-      <div>
-        <p className="heading1">NEW ARRIVALS- WOMEN</p>
-        <AliceCarousel
-          mouseTracking
-          items={womens}
-          slideBy="page"
-          autoWidth
-          disableButtonsControls
-          disableDotsControls
-        />
-      </div>
+        </div>
 
-      {/* Men Slider */}
-      <div>
-        <p className="heading1">NEW ARRIVALS- MEN</p>
-        <AliceCarousel
-          mouseTracking
-          items={womens}
-          slideBy="page"
-          autoWidth
-          disableButtonsControls
-          disableDotsControls
-        />
-      </div>
+        {/* Women Slider */}
+        <div>
+          <p className="heading1">NEW ARRIVALS- WOMEN</p>
+          <AliceCarousel
+            mouseTracking
+            items={womens}
+            slideBy="page"
+            autoWidth
+            disableButtonsControls
+            disableDotsControls
+          />
+        </div>
 
-      {/* Fabric Sliider */}
-      <div>
-        <p className="heading1">PREMIUM RANGE OF FABRICS</p>
-        <AliceCarousel
-          mouseTracking
-          items={fabrics}
-          slideBy="page"
-          autoWidth
-          disableButtonsControls
-          disableDotsControls
-        />
-      </div>
+        {/* Men Slider */}
+        <div>
+          <p className="heading1">NEW ARRIVALS- MEN</p>
+          <AliceCarousel
+            mouseTracking
+            items={womens}
+            slideBy="page"
+            autoWidth
+            disableButtonsControls
+            disableDotsControls
+          />
+        </div>
 
-      {/* Recent Visit Slider */}
-      <div>
-        <p className="heading1">YOUR RECENT VISITS</p>
-        <AliceCarousel
-          mouseTracking
-          items={womens}
-          slideBy="page"
-          autoWidth
-          disableButtonsControls
-          disableDotsControls
-        />
-      </div>
+        {/* Fabric Sliider */}
+        <div>
+          <p className="heading1">PREMIUM RANGE OF FABRICS</p>
+          <AliceCarousel
+            mouseTracking
+            items={fabrics}
+            slideBy="page"
+            autoWidth
+            disableButtonsControls
+            disableDotsControls
+          />
+        </div>
+
+        {/* Recent Visit Slider */}
+        <div>
+          <p className="heading1">YOUR RECENT VISITS</p>
+          <AliceCarousel
+            mouseTracking
+            items={womens}
+            slideBy="page"
+            autoWidth
+            disableButtonsControls
+            disableDotsControls
+          />
+        </div>
       </div>
 
       <Footer />

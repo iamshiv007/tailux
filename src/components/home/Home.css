@@ -1,31 +1,17 @@
-.homeMiddleContainer{
-  padding:0 30px
+.homeMiddleContainer {
+  padding: 0 20px;
 }
 
-.dealBox{
-  width:300px;
-}
-
-.dealBox > img{
-  width:300px
+.dealBox {
+  width: 300px;
 }
 
 .womenBox {
   width: 250px;
 }
 
-.womenBox > img{
-  width:250px;
-}
-
 .womenBox > div {
-  padding: 10px 25px;
-}
-
-.womenBox > div > p {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 25px;
+  padding: 0px 25px;
 }
 
 .womenBox > div > p > span:first-child {
@@ -45,9 +31,9 @@
 .fabricBox > img {
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 40.54%, #000000 100%);
   filter: drop-shadow(0px 3.99722px 3.99722px rgba(0, 0, 0, 0.25));
-  margin:0 20px 10px 20px;
+  margin: 0 20px 10px 20px;
   border-radius: 10px;
-  width:420px;
+  width: 420px;
 }
 
 .fabricBox > P {
@@ -61,4 +47,61 @@
   font-size: 25px;
   line-height: 35px;
   letter-spacing: 0.225em;
+}
+
+.seasonalBox {
+  position: relative;
+}
+
+.seasonalBox > div {
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+  background: transparent;
+}
+
+
+
+.seasonalBox > div > p:first-child {
+  font-size: 40px;
+  line-height: 60px;
+  text-align: right;
+  color: #ffffff;
+  background: transparent;
+  font-weight: 600;
+}
+
+.seasonalBox > div > p:last-child {
+  font-size:22px;
+  line-height: 30px;
+  text-align: right;
+  color: #ffffff;
+  background: transparent;
+  font-style: italic;
+}
+
+img[alt="Rectangle15"] + div > p:first-child {
+  margin-bottom:50px !important;
+}
+
+img[alt="Rectangle16"] + div > p:first-child {
+  margin-bottom:50px !important;
+}
+
+img[alt="Rectangle14"] + div > p:first-child {
+  font-size: 70px;
+  line-height: 90px;
+  text-align: right;
+  color: #ffffff;
+  background: transparent;
+  font-weight: 600;
+}
+
+img[alt="Rectangle14"] + div > p:last-child {
+  font-size: 35px;
+  line-height: 70px;
+  text-align: right;
+  color: #ffffff;
+  background: transparent;
+  font-style: italic;
 }

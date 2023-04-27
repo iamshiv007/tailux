@@ -21,12 +21,12 @@ footer > div > div > p {
 
 footer > p {
   font-family: "Plus Jakarta Sans";
-  font-weight: 800;
-  font-size: 20px;
+  font-weight: 500;
+  font-size: 17px;
   line-height: 26px;
   background-color: black;
   color: #ffffff;
-  padding:10px;
+  padding:8px;
   text-align: center;
 }
 

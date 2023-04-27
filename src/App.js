@@ -9,6 +9,7 @@ import CreateAccount from './components/user/CreateAccount';
 import Login from './components/user/Login';
 import ResetPassword from './components/user/ResetPassword';
 import ResetPasswordOtp from './components/user/ResetPasswordOtp';
+import SetPassword from './components/user/SetPassword';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <Route path='/login' element={<Login/>} />
       <Route path='/resetPassword' element={<ResetPassword/>} />
       <Route path='/resetPasswordOtp' element={<ResetPasswordOtp/>} />
+      <Route path='/setPassword' element={<SetPassword/>} />
     </Routes>
     </BrowserRouter>
   );
