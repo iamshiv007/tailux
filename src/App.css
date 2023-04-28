@@ -192,3 +192,24 @@
   margin: 0;
   padding: 0;
 }
+
+.myRadio {
+  border: 3px solid black;
+  border-radius: 100%;
+  width: fit-content;
+  height: fit-content;
+}
+
+.myRadio > p {
+  width: 14px;
+  height: 14px;
+  background-color: black;
+  margin: 3px !important;
+  border-radius: 100%;
+  cursor: pointer;
+  border: 2px solid black;
+}
+
+.myRadioOff > p {
+  background-color: white;
+}

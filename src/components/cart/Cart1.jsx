@@ -5,13 +5,15 @@ import Footer from "../layout/footer/Footer";
 import CartItem1 from "../../assests/images/CartItem1.png";
 import Women2 from "../../assests/images/Women2.png";
 import "./Cart1.css";
+import HeadPhone from "../layout/HeadPhone";
 
 const Cart1 = () => {
   return (
     <Fragment>
       <Navbar />
+      <HeadPhone/>
 
-      <div className="catr1Container">
+      <div className="cart1Container">
         <div className="deliveryDetails">
           <div>
             <p className="text15">Deliver to Guntur-522007</p>
