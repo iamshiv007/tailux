@@ -21,7 +21,6 @@
 }
 
 .productContainer > div:nth-child(2) > div > a {
-  font-family: "Plus Jakarta Sans";
   font-weight: 600;
   font-size: 18px;
   line-height: 24px;
@@ -34,7 +33,6 @@
 }
 
 .rightSide > .productName {
-  font-family: "Plus Jakarta Sans";
   font-weight: 400;
   font-size: 25px;
   line-height: 35px;

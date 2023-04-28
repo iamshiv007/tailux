@@ -9,13 +9,14 @@ import ResetPassword from './components/user/ResetPassword';
 import ResetPasswordOtp from './components/user/ResetPasswordOtp';
 import SetPassword from './components/user/SetPassword';
 import Product from './components/product/Product';
+import ProductCustomization from './components/product/ProductCustomization';
 
 function App() {
   return (
     <BrowserRouter>
     <Routes>
       <Route path='/' element={<Home/>} />
-\      <Route path='/logInSignUp1' element={<LogInSignUp1/>} />
+      <Route path='/logInSignUp1' element={<LogInSignUp1/>} />
       <Route path='/otpPage' element={<OtpPage/>} />
       <Route path='/createAccount' element={<CreateAccount/>} />
       <Route path='/login' element={<Login/>} />
@@ -23,6 +24,7 @@ function App() {
       <Route path='/resetPasswordOtp' element={<ResetPasswordOtp/>} />
       <Route path='/setPassword' element={<SetPassword/>} />
       <Route path='/product' element={<Product/>} />
+      <Route path='/ProductCustomization' element={<ProductCustomization/>} />
     </Routes>
     </BrowserRouter>
   );
