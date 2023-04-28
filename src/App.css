@@ -117,6 +117,17 @@
   line-height: 16px;
 }
 
+.text15 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.text16 {
+  font-size: 16px;
+  line-height: 20px;
+}
+
 .box1 {
   margin: auto;
   margin-top: auto;

@@ -10,6 +10,8 @@ import ResetPasswordOtp from './components/user/ResetPasswordOtp';
 import SetPassword from './components/user/SetPassword';
 import Product from './components/product/Product';
 import ProductCustomization from './components/product/ProductCustomization';
+import Cart1 from './components/cart/Cart1';
+import Cart2 from './components/cart/Cart2';
 
 function App() {
   return (
@@ -25,6 +27,8 @@ function App() {
       <Route path='/setPassword' element={<SetPassword/>} />
       <Route path='/product' element={<Product/>} />
       <Route path='/ProductCustomization' element={<ProductCustomization/>} />
+      <Route path='/cart1' element={<Cart1/>} />
+      <Route path='/cart2' element={<Cart2/>} />
     </Routes>
     </BrowserRouter>
   );
