@@ -128,6 +128,26 @@
   line-height: 20px;
 }
 
+.text17,
+.text17b {
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.text17b {
+  font-weight: 700;
+}
+
+.text18,
+.text18b {
+  font-size: 13px;
+  line-height: 15px;
+}
+
+.text18b {
+  font-weight: 700;
+}
+
 .box1 {
   margin: auto;
   margin-top: auto;

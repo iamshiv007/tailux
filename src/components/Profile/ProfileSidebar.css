@@ -1,0 +1,77 @@
+.profileSidebarContainer {
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 14px;
+  width: 20%;
+}
+
+.profileSidebarContainer {
+  padding: 10px;
+}
+
+.profileSidebarContainer > div:first-child {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    inset 0px 1px 7px rgba(0, 0, 0, 0.25);
+  border-radius: 7px;
+  padding: 15px;
+  display: flex;
+  column-gap: 15px;
+  align-items: center;
+}
+
+.profileSidebarContainer > div:first-child img {
+  width: 50px;
+}
+
+.profileSidebarContainer > a {
+  display: flex;
+  column-gap: 10px;
+  padding: 6px 8px;
+  margin: 10px 0;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.profileSidebarContainer > a:hover {
+  background-color: #efefef;
+}
+
+.profileSidebarContainer > a > img {
+  width: 16px;
+}
+
+.profileSidebarContainer .linkSection > a {
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  color: #000000;
+  text-decoration: none;
+  display: block;
+  margin: 4px 0;
+  padding: 6px 0;
+  border-radius: 4px;
+}
+
+.profileSidebarContainer .linkSection > a:hover {
+  background-color: #efefef;
+}
+
+.profileSidebarContainer .linkSection > p:first-child {
+  margin-top: 0;
+}
+
+.profileSidebarContainer .linkSection > p {
+  border-bottom: 2px solid #b8b8b8;
+  padding: 5px 0;
+  margin-top: 20px;
+}
+
+.profileSidebarContainer .linkSection > a:last-child > img {
+  width: 16px;
+}
+
+.profileSidebarContainer .linkSection > a:last-child {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}

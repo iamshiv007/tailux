@@ -10,7 +10,7 @@ import ProfileDropDown from "./ProfileDropDown";
 
 const Navbar = () => {
 
-  const [display1, setDisplay1] = useState('')
+  const [display1, setDisplay1] = useState('none')
 
   const VisibleProfileDropDown = () => {
     setDisplay1('block')

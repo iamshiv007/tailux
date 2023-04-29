@@ -16,7 +16,7 @@ const ProfileDropDown = ({ display }) => {
           <div>
             <p>M S Manjunadha</p>
 
-            <Link to='/myAccount'>My Account</Link>
+            <Link to='/profile'>My Account</Link>
           </div>
         </div>
 
