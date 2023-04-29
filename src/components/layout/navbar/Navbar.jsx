@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment, useState } from "react";
 import { Link } from "react-router-dom";
 import Logo from "../../../assests/images/Logo.svg";
 import SearchIcon from "../../../assests/images/SearchIcon.svg";
@@ -6,10 +6,22 @@ import ProfileIcon from "../../../assests/images/ProfileIcon.svg";
 import WishlistIcon from "../../../assests/images/WishlistIcon.svg";
 import BagIcon from "../../../assests/images/BagIcon.svg";
 import "./Navbar.css";
+import ProfileDropDown from "./ProfileDropDown";
 
 const Navbar = () => {
+
+  const [display1, setDisplay1] = useState('')
+
+  const VisibleProfileDropDown = () => {
+    setDisplay1('block')
+  }
+
+  const InVisibleProfileDropDown = () => {
+    setDisplay1("none")
+  }
+
   return (
-    <div>
+    <Fragment>
       <nav>
         <div className="d-flex">
             <img className="navLogo me-5" src={Logo} alt="Tailux" />
@@ -40,11 +52,12 @@ const Navbar = () => {
 
         <div className="rightSide">
           <div>
-            <Link to="/">
+            <Link to="/" onMouseOver={VisibleProfileDropDown} onMouseOut={InVisibleProfileDropDown}>
               <div>
                 <img src={ProfileIcon} alt="ProfileIcon" />
                 <p>Profile</p>
               </div>
+                <ProfileDropDown display={display1} />
             </Link>
           </div>
           <div>
@@ -65,7 +78,7 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-    </div>
+    </Fragment>
   );
 };
 
