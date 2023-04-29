@@ -13,7 +13,11 @@ import Women4 from "../../assests/images/Women4.png";
 
 import Star1 from "../../assests/images/Star1.svg";
 import Star2 from "../../assests/images/Star2.svg";
+import Star3 from "../../assests/images/Star3.svg";
 import Truck1 from "../../assests/images/Truck1.svg";
+
+import ReviewImage1 from "../../assests/images/ReviewImage1.png";
+import ReviewImage2 from "../../assests/images/ReviewImage2.png";
 
 import AliceCarousel from "react-alice-carousel";
 import ProgressBar from "@ramonak/react-progress-bar";
@@ -69,6 +73,16 @@ const Product = () => {
       <div>
         <p>Plunge Floral Print</p>
         <p>Georgette Dress</p>
+        <p>
+          <span>₹1999</span> <span>₹1999</span>
+        </p>
+      </div>
+    </div>,
+    <div className="womenBox">
+      <img src={Women2} alt="Women2" />
+      <div>
+        <p>Landscape Print</p>
+        <p>Belted Shirtdress</p>
         <p>
           <span>₹1999</span> <span>₹1999</span>
         </p>
@@ -330,6 +344,52 @@ const Product = () => {
                   </div>
                   <span className="text11">28</span>
                 </div>
+              </div>
+
+              <div className="costomerReveiwsBox">
+                <p>Customer Reviews</p>
+                <div>
+                  <div>
+                    <p>
+                      <span>
+                        5{" "}
+                        <img style={{ width: "8px" }} src={Star3} alt="Star3" />
+                      </span>
+                    </p>
+                    <p>
+                      <span>L size , it's really wonderful</span>
+                      <p>
+                        <span>Rupam16 </span>
+                        <span>June 2022</span>
+                      </p>
+                    </p>
+                    <div>
+                      <img
+                        style={{ width: "40px" }}
+                        src={ReviewImage1}
+                        alt="ReviewImage1"
+                      />
+                      <img
+                        style={{ width: "40px" }}
+                        src={ReviewImage2}
+                        alt="ReviewImage2"
+                      />
+
+                      <div>
+                        <img
+                          style={{ width: "40px" }}
+                          src={ReviewImage2}
+                          alt="ReviewImage2"
+                        />
+                        <p>4+</p>
+                      </div>
+
+                      <span>......</span>
+                    </div>
+                  </div>
+                </div>
+
+                <p>read more&nbsp;&nbsp;{`>`}</p>
               </div>
             </div>
           </div>
