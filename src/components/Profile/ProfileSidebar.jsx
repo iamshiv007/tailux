@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import ProfileImage1 from "../../assests/images/ProfileImage1.svg";
 import OrderBox1 from "../../assests/images/OrderBox1.svg";
 import "./ProfileSidebar.css";
@@ -17,35 +17,35 @@ const ProfileSidebar = () => {
           </div>
         </div>
 
-        <Link to="/">
+        <NavLink to="/">
           <img src={OrderBox1} alt="OrderBox1" />
           <p className="text18b">My Orders</p>
-        </Link>
+        </NavLink>
 
         <div className="linkSection">
           <p className="text18b">ACCOUNT SETTINGS</p>
 
-          <Link to="/">Profile Information</Link>
-          <Link to="/">Manage Addresses</Link>
-          <Link to="/">My Sizes</Link>
+          <NavLink to="/profile">Profile Information</NavLink>
+          <NavLink to="/addresses">Manage Addresses</NavLink>
+          <NavLink to="/">My Sizes</NavLink>
 
           <p className="text18b">PAYMENTS </p>
 
-          <Link to="/">Gift Cards</Link>
-          <Link to="/">Saved UPIs</Link>
-          <Link to="/">Saved Cards</Link>
+          <NavLink to="/">Gift Cards</NavLink>
+          <NavLink to="/">Saved UPIs</NavLink>
+          <NavLink to="/">Saved Cards</NavLink>
 
           <p className="text18b">My Stuff</p>
 
-          <Link to="/">My Wishlist</Link>
-          <Link to="/">My Designs</Link>
-          <Link to="/">My Notifications</Link>
-          <Link to="/">My Ratings & Reviews</Link>
+          <NavLink to="/">My Wishlist</NavLink>
+          <NavLink to="/">My Designs</NavLink>
+          <NavLink to="/">My Notifications</NavLink>
+          <NavLink to="/">My Ratings & Reviews</NavLink>
 
-          <Link to="/">
+          <NavLink to="/">
             <img src="" alt="LogOut" />
             <p className="text18b">LOG OUT</p>
-          </Link>
+          </NavLink>
         </div>
       </div>
     </Fragment>

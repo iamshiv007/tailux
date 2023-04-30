@@ -20,7 +20,7 @@ const Profile = () => {
     <Fragment>
       <Navbar />
 
-      <div className="profileContainer">
+      <div className="profilePage">
         <ProfileSidebar />
 
         <div className="profileInfoContainer">

@@ -233,3 +233,17 @@
 .myRadioOff > p {
   background-color: white;
 }
+
+.profilePage {
+  margin: 30px;
+  display: flex;
+  column-gap: 30px;
+}
+
+.profilePage > div:last-child {
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 14px;
+  width: 80%;
+  padding: 15px;
+}

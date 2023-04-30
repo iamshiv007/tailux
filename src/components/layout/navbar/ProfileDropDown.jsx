@@ -1,14 +1,14 @@
 import React, { Fragment } from "react";
-import "./ProfileDropDown.css";
+import "./ProfileDropdown.css";
 
 import ProfileImage1 from "../../../assests/images/ProfileImage1.svg";
 import { Link } from "react-router-dom";
 
-const ProfileDropDown = ({ display }) => {
+const ProfileDropdown = ({ display }) => {
   return (
     <Fragment>
-        <div className="profileDropDownContainerWrapper" style={{display:`${display}`}}>
-      <div className="profileDropDownContainer">
+        <div className="profileDropdownContainerWrapper" style={{display:`${display}`}}>
+      <div className="profileDropdownContainer">
         <p>Welcome Back</p>
 
         <div className="userDetail">
@@ -43,4 +43,4 @@ const ProfileDropDown = ({ display }) => {
   );
 };
 
-export default ProfileDropDown;
+export default ProfileDropdown;

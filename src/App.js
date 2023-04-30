@@ -14,26 +14,28 @@ import Cart1 from './components/cart/Cart1';
 import Cart2 from './components/cart/Cart2';
 import Cart3 from './components/cart/Cart3';
 import Profile from './components/Profile/Profile';
+import Addresses from './components/Profile/Addresses';
 
 function App() {
   return (
     <BrowserRouter>
-    <Routes>
-      <Route path='/' element={<Home/>} />
-      <Route path='/logInSignUp1' element={<LogInSignUp1/>} />
-      <Route path='/otpPage' element={<OtpPage/>} />
-      <Route path='/createAccount' element={<CreateAccount/>} />
-      <Route path='/login' element={<Login/>} />
-      <Route path='/resetPassword' element={<ResetPassword/>} />
-      <Route path='/resetPasswordOtp' element={<ResetPasswordOtp/>} />
-      <Route path='/setPassword' element={<SetPassword/>} />
-      <Route path='/product' element={<Product/>} />
-      <Route path='/ProductCustomization' element={<ProductCustomization/>} />
-      <Route path='/cart1' element={<Cart1/>} />
-      <Route path='/cart2' element={<Cart2/>} />
-      <Route path='/cart3' element={<Cart3/>} />
-      <Route path='/profile' element={<Profile/>} />
-    </Routes>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/logInSignUp1' element={<LogInSignUp1 />} />
+        <Route path='/otpPage' element={<OtpPage />} />
+        <Route path='/createAccount' element={<CreateAccount />} />
+        <Route path='/login' element={<Login />} />
+        <Route path='/resetPassword' element={<ResetPassword />} />
+        <Route path='/resetPasswordOtp' element={<ResetPasswordOtp />} />
+        <Route path='/setPassword' element={<SetPassword />} />
+        <Route path='/product' element={<Product />} />
+        <Route path='/ProductCustomization' element={<ProductCustomization />} />
+        <Route path='/cart1' element={<Cart1 />} />
+        <Route path='/cart2' element={<Cart2 />} />
+        <Route path='/cart3' element={<Cart3 />} />
+        <Route path='/profile' element={<Profile />} />
+        <Route path='/addresses' element={<Addresses />} />
+      </Routes>
     </BrowserRouter>
   );
 }

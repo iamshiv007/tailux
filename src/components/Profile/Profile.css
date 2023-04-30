@@ -1,41 +1,24 @@
-.profileContainer {
-  margin: 30px;
-  display: flex;
-  column-gap: 30px;
-}
-
-.profileContainer > div:last-child {
-  background: #ffffff;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 14px;
-  width: 80%;
-}
-
-.profileContainer .profileInfoContainer {
-  padding: 15px;
-}
-
-.profileContainer .profileInfoContainer label:first-child {
+.profileInfoContainer label:first-child {
   width: 15%;
 }
 
-.profileContainer .profileInfoContainer > .personalInfo > div {
+.profileInfoContainer > .personalInfo > div {
   padding: 8px 0;
   display: flex;
 }
 
-.profileContainer .profileInfoContainer > .personalInfo > div > div {
+.profileInfoContainer > .personalInfo > div > div {
   display: flex;
   column-gap: 10px;
 }
 
-.profileContainer .profileInfoContainer > .personalInfo > div > div > label {
+.profileInfoContainer > .personalInfo > div > div > label {
   font-size: 13px;
   line-height: 15px;
   color: #bcbcbc;
 }
 
-.profileContainer .profileInfoContainer > .personalInfo > div > div > input {
+.profileInfoContainer > .personalInfo > div > div > input {
   background: #efefef;
   border-radius: 6px;
   border: none;
@@ -47,7 +30,7 @@
   outline: none;
 }
 
-.profileContainer .profileInfoContainer > .personalInfo > div > div > button {
+.profileInfoContainer > .personalInfo > div > div > button {
   font-size: 10px;
   line-height: 13px;
   text-decoration-line: underline;
@@ -55,22 +38,22 @@
   background-color: white;
 }
 
-.profileContainer .profileInfoContainer > .personalInfo > p:first-child {
+.profileInfoContainer > .personalInfo > p:first-child {
   padding: 8px 0;
 }
 
-.profileContainer > .profileInfoContainer > .faqContainer {
+.profileInfoContainer > .faqContainer {
   margin: 50px 0;
 }
 
-.profileContainer > .profileInfoContainer > .faqContainer > p:first-child,
-.profileContainer > .profileInfoContainer > .faqContainer > div {
+.profileInfoContainer > .faqContainer > p:first-child,
+.profileInfoContainer > .faqContainer > div {
   padding: 10px 0;
 }
 
-.profileContainer > .profileInfoContainer > .deactivateAccountBtn{
-  background-color: #D9D9D9;
-  padding:6px 8px;
+.profileInfoContainer > .deactivateAccountBtn {
+  background-color: #d9d9d9;
+  padding: 6px 8px;
   border: none;
   border-radius: 4px;
 }

@@ -6,17 +6,17 @@ import ProfileIcon from "../../../assests/images/ProfileIcon.svg";
 import WishlistIcon from "../../../assests/images/WishlistIcon.svg";
 import BagIcon from "../../../assests/images/BagIcon.svg";
 import "./Navbar.css";
-import ProfileDropDown from "./ProfileDropDown";
+import ProfileDropdown from "./ProfileDropdown";
 
 const Navbar = () => {
 
   const [display1, setDisplay1] = useState('none')
 
-  const VisibleProfileDropDown = () => {
+  const VisibleProfileDropdown = () => {
     setDisplay1('block')
   }
 
-  const InVisibleProfileDropDown = () => {
+  const InVisibleProfileDropdown = () => {
     setDisplay1("none")
   }
 
@@ -52,12 +52,12 @@ const Navbar = () => {
 
         <div className="rightSide">
           <div>
-            <Link to="/" onMouseOver={VisibleProfileDropDown} onMouseOut={InVisibleProfileDropDown}>
+            <Link to="/" onMouseOver={VisibleProfileDropdown} onMouseOut={InVisibleProfileDropdown}>
               <div>
                 <img src={ProfileIcon} alt="ProfileIcon" />
                 <p>Profile</p>
               </div>
-                <ProfileDropDown display={display1} />
+                <ProfileDropdown display={display1} />
             </Link>
           </div>
           <div>

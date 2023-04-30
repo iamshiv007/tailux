@@ -56,6 +56,15 @@
   background-color: #efefef;
 }
 
+.profileSidebarContainer .linkSection > .active {
+  background-color: black;
+  color: white;
+}
+
+.profileSidebarContainer .linkSection > .active:hover {
+  background-color: black;
+}
+
 .profileSidebarContainer .linkSection > p:first-child {
   margin-top: 0;
 }
