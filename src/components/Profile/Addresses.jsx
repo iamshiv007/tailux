@@ -4,9 +4,9 @@ import Footer from "../layout/footer/Footer";
 import ProfileSidebar from "./ProfileSidebar";
 import "./Addresses.css";
 import AddressDropdown from "./AddressDropdown";
+import EditAddress from "./EditAddress";
 
 const Addresses = () => {
-
   return (
     <Fragment>
       <Navbar />
@@ -41,8 +41,10 @@ const Addresses = () => {
               </p>
             </div>
 
-            <AddressDropdown style={'style1'} /> 
+            <AddressDropdown style={"style1"} />
           </div>
+
+          <EditAddress />
 
           <div className="addressBox">
             <div>
@@ -50,6 +52,7 @@ const Addresses = () => {
 
               <div>
                 <p>Manju</p>
+                <p>6304897782</p>
               </div>
 
               <p className="text17 pb-3">
@@ -58,7 +61,7 @@ const Addresses = () => {
               </p>
             </div>
 
-            <AddressDropdown style={'style2'} /> 
+            <AddressDropdown style={"style2"} />
           </div>
 
           <div className="addressBox">
@@ -75,7 +78,7 @@ const Addresses = () => {
               </p>
             </div>
 
-            <AddressDropdown style={'style3'} /> 
+            <AddressDropdown style={"style3"} />
           </div>
         </div>
       </div>

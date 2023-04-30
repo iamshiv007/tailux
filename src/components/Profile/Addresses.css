@@ -52,10 +52,10 @@
 }
 
 .addressesContainer > .addressBox > div:first-child > div {
-  display: flex;
+  display: grid;
   font-weight: 700;
   font-size: 18px;
   line-height: 23px;
-  column-gap: 150px;
   padding: 15px 0;
+  grid-template-columns: 1fr 1fr;
 }
