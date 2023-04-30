@@ -1,7 +1,7 @@
 .profileContainer {
   margin: 30px;
   display: flex;
-  column-gap: 30px;;
+  column-gap: 30px;
 }
 
 .profileContainer > div:last-child {
@@ -11,3 +11,66 @@
   width: 80%;
 }
 
+.profileContainer .profileInfoContainer {
+  padding: 15px;
+}
+
+.profileContainer .profileInfoContainer label:first-child {
+  width: 15%;
+}
+
+.profileContainer .profileInfoContainer > .personalInfo > div {
+  padding: 8px 0;
+  display: flex;
+}
+
+.profileContainer .profileInfoContainer > .personalInfo > div > div {
+  display: flex;
+  column-gap: 10px;
+}
+
+.profileContainer .profileInfoContainer > .personalInfo > div > div > label {
+  font-size: 13px;
+  line-height: 15px;
+  color: #bcbcbc;
+}
+
+.profileContainer .profileInfoContainer > .personalInfo > div > div > input {
+  background: #efefef;
+  border-radius: 6px;
+  border: none;
+  font-size: 13px;
+  line-height: 15px;
+  color: #bcbcbc;
+  padding: 6px 10px;
+  width: fit-content;
+  outline: none;
+}
+
+.profileContainer .profileInfoContainer > .personalInfo > div > div > button {
+  font-size: 10px;
+  line-height: 13px;
+  text-decoration-line: underline;
+  border: none;
+  background-color: white;
+}
+
+.profileContainer .profileInfoContainer > .personalInfo > p:first-child {
+  padding: 8px 0;
+}
+
+.profileContainer > .profileInfoContainer > .faqContainer {
+  margin: 50px 0;
+}
+
+.profileContainer > .profileInfoContainer > .faqContainer > p:first-child,
+.profileContainer > .profileInfoContainer > .faqContainer > div {
+  padding: 10px 0;
+}
+
+.profileContainer > .profileInfoContainer > .deactivateAccountBtn{
+  background-color: #D9D9D9;
+  padding:6px 8px;
+  border: none;
+  border-radius: 4px;
+}
