@@ -15,6 +15,7 @@ import Cart2 from './components/cart/Cart2';
 import Cart3 from './components/cart/Cart3';
 import Profile from './components/Profile/Profile';
 import Addresses from './components/Profile/Addresses';
+import MySizes from './components/Profile/MySizes/MySizes';
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
         <Route path='/cart3' element={<Cart3 />} />
         <Route path='/profile' element={<Profile />} />
         <Route path='/addresses' element={<Addresses />} />
+        <Route path='/mySizes' element={<MySizes />} />
       </Routes>
     </BrowserRouter>
   );

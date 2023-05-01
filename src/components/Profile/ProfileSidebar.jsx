@@ -27,7 +27,7 @@ const ProfileSidebar = () => {
 
           <NavLink to="/profile">Profile Information</NavLink>
           <NavLink to="/addresses">Manage Addresses</NavLink>
-          <NavLink to="/">My Sizes</NavLink>
+          <NavLink to="/mySizes">My Sizes</NavLink>
 
           <p className="text18b">PAYMENTS </p>
 

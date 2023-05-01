@@ -1,5 +1,5 @@
-footer{
-    margin-top:30px;
+footer {
+  margin-top: 30px;
 }
 footer > div {
   display: grid;
@@ -26,45 +26,45 @@ footer > p {
   line-height: 26px;
   background-color: black;
   color: #ffffff;
-  padding:8px;
+  padding: 8px;
   text-align: center;
 }
 
-.socialMedia{
-    margin-top: 30px;
-    padding:0 10px;
+.socialMedia {
+  margin-top: 30px;
+  padding: 0 10px;
 }
 
-.socialMedia > div:first-child{
-    display: flex;
-    justify-content: space-between;
+.socialMedia > div:first-child {
+  display: flex;
+  justify-content: space-between;
 }
 
-.socialMedia > div:first-child > a > img{
-    width:16px;
-    background-color: #E7E7E7;
+.socialMedia > div:first-child > a > img {
+  width: 16px;
+  background-color: #e7e7e7;
 }
 
-.facebookIcon{
-    width:12px !important;
+.facebookIcon {
+  width: 12px !important;
 }
 
 .socialMedia > div:first-child > a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #E7E7E7;
-    border-radius: 50%;
-    width:45px;
-    height:45px
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e7e7e7;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
 }
 
-.socialMedia > div:last-child{
-    display: flex;
-    margin-top: 30px;
-    column-gap: 20px;
+.socialMedia > div:last-child {
+  display: flex;
+  margin-top: 30px;
+  column-gap: 20px;
 }
 
-.socialMedia > div:last-child > a > img{
-    height:45px
+.socialMedia > div:last-child > a > img {
+  height: 45px;
 }
